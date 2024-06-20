@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('./images/coffee-background.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: 40%;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-y:auto;
+    margin: 0px 0px 0px -17px;
+}
+#content {
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #4a3c3c;
+    color: white;
+    font-size: large;
+    border: 1px solid #4a3c3c;
+    border-radius: 10px;
+    width: 90px;
+    padding: 15px;
+}

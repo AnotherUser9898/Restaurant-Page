@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'candle';
+    src: url('./fonts/Candlefish.ttf') format('truetype');
+}
+.body {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+.home.title {
+    color: white;
+}
+
+.home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.home.title {
+    background-color: #4a3c3c;
+    font-size: 50px;
+    width: max-content;
+    height: min-content;
+    font-family: 'candle';
+    padding: 25px;
+    border-radius: 15px;
+    
+}
+
+.testimonial-container {
+    width: 350px;
+    height: max-content;
+    background-color: #4a3c3c;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'candle';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 15px;
+}
+
+.writer {
+    align-self: flex-end;
+}
+
+.hours-container {
+    display: grid;
+    font-family: 'candle';
+    background-color: #4a3c3c;
+    width: max-content;
+    height: auto;
+    color: white;
+    row-gap: 5px;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.hours {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.location-container {
+    background-color: #4a3c3c;
+    width: max-content;
+    height: auto;
+    color: white;
+    font-family: 'candle';
+    font-size: 20px;
+    padding: 10px;
+    display: grid;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.location {
+    font-size: 35px;
+    font-weight: bold;
+    justify-self: start;
+}
